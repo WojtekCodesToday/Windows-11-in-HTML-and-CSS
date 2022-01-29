@@ -7,8 +7,8 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+
 body{
-    background: #619fdabf;
     background-position: center;
     display: flex;
     overflow-y: hidden;
@@ -31,12 +31,13 @@ body{
 }
 
 .wrapper header{
-    color:rgb(141, 10, 180);
-    font-size:23px
-    font-weight 500;
+    color:rgb(0, 0, 0);
+    font-size:23px;
+    font-weight:500;
     padding: 2px 5px;
     border-bottom: 1px solid #bfbfbfbf;
 }
+
 .wrapper .content{
     margin: 30px 30px 40px;
 }
@@ -44,8 +45,58 @@ body{
 .wrapper{
     border-radius: 10px;
 }
+
 .note{
     margin: 7px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.exeedge{
+    margin: 7px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bin{
+    margin: 7px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: radial-gradient(rgb(76, 186, 250), rgb(42, 152, 216), rgb(94, 145, 175));
+    overflow: hidden;
+    background-size: 100%;
+    background-repeat:no-repeat;
+    background-position-y: top;
+    background-attachment: fixed;
+}
+.taskbar{
+    background-color: #F3F3F3;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    z-index: 130;
+    justify-content: center;
+    
+}
+.right{
+    justify-self: flex-end;
+    position: absolute;
+    right: 0;
+    margin: 6px 0;
+    height: 85%;
+}  
+.startmenu{
+    position: absolute;
+    bottom: -655px;
+    width: 100%;
+    text-align: center;
+    transition: all 0.3s ease-in; 
+    z-index: 110;
+}
+.startmenu img{
+    border-radius: 8px;
 }
