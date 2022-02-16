@@ -1,1 +1,1 @@
-You need to run the style.HTML file to go to Windows 11 in your browser
+You need to run the style.HTML file to go to Windows 11 in your browser, but before that, delete style11.css and script11.css, if they exist when downloaded.
