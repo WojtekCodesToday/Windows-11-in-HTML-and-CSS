@@ -9,46 +9,14 @@
 }
 
 body{
-  background-color: (255, 255, 255);
    background-position: center;
     display: flex;
     overflow-y: hidden;
   overflow-x: hidden;
 }
 
-.wrapper{
-    border-radius: 10px;
-    z-index: 111;
-}
-
-.wrapper{
-    background: rgb(255, 255, 255);
-    width: 450px;
-    position: absolute;
-    top: 50%;
-    left: 50%
-
-    transform translate(-50%, -50%) scale(1.4);
-}
-
-.wrapper header{
-    color:rgb(0, 0, 0);
-    font-size:23px;
-    font-weight:500;
-    padding: 2px 5px;
-    border-bottom: 1px solid #bfbfbfbf;
-}
-
-.wrapper .content{
-    margin: 30px 30px 40px;
-}
-
-.wrapper{
-    border-radius: 10px;
-}
-
 .note{
-    margin: 7px;
+    margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
